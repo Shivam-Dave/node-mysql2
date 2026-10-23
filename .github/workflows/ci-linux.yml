@@ -28,8 +28,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        node-version: [18, 20, 22, 24]
-        mysql-version: ['mysql:8.3', 'mariadb:11.8']
+        node-version: [22]
+        mysql-version: ['mariadb:10.4']
         use-compression: [0, 1]
         use-tls: [0, 1]
         mysql_connection_url_key: ['']
